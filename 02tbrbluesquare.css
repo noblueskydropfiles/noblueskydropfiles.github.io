@@ -1,0 +1,288 @@
+/*
+COLOR OF THE ICONS
+Change the color, and adjust the opacity for brighter color. 
+Remove the display: none to match the selected icon to the other icons.
+*/
+body #mal\_cs\_listinfo:before, body #mal\_cs\_links:before, 
+body #mal\_cs\_otherlinks:before, body #mal\_cs\_powered:before {
+background: #2181da;
+}
+
+/*
+BORDER OF ICONS
+If you're having trouble seeing the border bottom, lower the height by a pixel or two until you see it.
+
+*/
+body #mal_cs_listinfo:before, body #mal_cs_links:before, body #mal_cs_otherlinks:before, body #mal_cs_powered:before, body #mal\_cs\_listinfo:before, body #mal\_cs\_links:before, 
+body #mal\_cs\_otherlinks:before, body #mal\_cs\_powered:before {
+    border-color: ;
+    border-style: ;
+    border-width: ;
+    height: 32px !important;
+}
+
+/*
+BUTTONS COLOR AND BORDER
+Buttons within the hover menus, not the icons themselves. 
+Second code is for button color on hover. 
+*/
+body #mal_cs_listinfo a, body #mal_cs_links a, body #mal_cs_otherlinks a, body #mal_cs_powered a img{
+    background-color: #2181da !important;
+    border-color: transparent;
+    border-style: solid !important;
+    border-width: 1px !important;
+}
+
+
+body #mal\_cs\_listinfo a:hover, body #mal\_cs\_links a:hover, body #mal\_cs\_otherlinks a:hover, body #mal_cs_powered a img:hover {
+background-color: ;
+}
+
+
+
+/*
+COLOR OF HOVER MENUS AND SELECTED ICONS
+Remove display none from the second code to match the colors of the selected icon to the icons above. 
+*/
+body #mal\_cs\_listinfo div, body #mal\_cs\_links div, body #mal\_cs\_otherlinks div, 
+body #mal\_cs\_powered div, body #mal\_cs\_powered dd, body #mal\_cs\_powered a  {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+body #mal\_cs\_listinfo:hover:before, body #mal\_cs\_links:hover:before, 
+body #mal\_cs\_otherlinks:hover:before, body #mal\_cs\_powered:hover:before,
+body #mal\_cs\_listinfo:hover:after, body #mal\_cs\_links:hover:after, 
+body #mal\_cs\_otherlinks:hover:after, body #mal\_cs\_powered:hover:after {
+  display: none;
+  background-color: ;
+  opacity: .2;
+}
+
+/*
+COLOR OF USERNAME (for visitors)
+You don't see this username on the menus when you're logged in, log out to see it. 
+*/
+body #mal\_cs\_otherlinks strong a {
+color: #2181da !important;
+}
+
+body #mal\_cs\_otherlinks strong a:hover {
+color: blue !important;
+background-color: transparent !important;
+}
+
+/*
+POSITION OF TOP BAR
+Change to absolute if you want it to not scroll with the page.
+*/
+#mal\_control\_strip
+{
+position: fixed !important;
+}
+
+
+
+
+/*
+OTHER CODES
+If you want to change out the icon images themselves, you can scroll down through the codes and find the background images and change them with your own.
+*/
+
+body #mal\_cs\_listinfo, body #mal\_cs\_links, body #mal\_cs\_otherlinks, body #mal\_cs\_powered {
+-moz-box-sizing: border-box;
+transition: all 0.4s ease 0s;
+background: none no-repeat scroll 100% 0 transparent;
+border: 0 none;
+height: 0 !important;
+overflow: hidden;
+position: absolute;
+right: 4px;
+text-align: center;
+top: 4px;
+width: 150px;
+z-index: 10;
+}
+body #mal\_cs\_listinfo:hover, body #mal\_cs\_links:hover, body #mal\_cs\_otherlinks:hover, body #mal\_cs\_powered:hover {
+height: 200px !important;
+padding-top: 32px;
+width: 150px;
+}
+body #mal\_cs\_listinfo div, body #mal\_cs\_links div, body #mal\_cs\_otherlinks div, body #mal\_cs\_powered div, body #mal\_cs\_powered dd {
+transition: opacity 0.4s ease-in-out 0s;
+font-size: 0 !important;
+line-height: 0;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0;
+}
+body #mal\_cs\_listinfo:hover div, body #mal\_cs\_links:hover div, body #mal\_cs\_otherlinks:hover div, body #mal\_cs\_powered:hover div, body #mal\_cs\_powered:hover dd {
+opacity: 1;
+}
+body #mal\_cs\_listinfo div:nth-of-type(2), body #mal\_cs\_links div:nth-of-type(2), body #mal\_cs\_otherlinks div:nth-of-type(2), body #mal\_cs\_powered div:nth-of-type(2) {
+padding: 4px 0 8px;
+}
+body #mal\_cs\_listinfo a, body #mal\_cs\_links a, body #mal\_cs\_otherlinks a, body #mal\_cs\_powered a {
+background-color: rgba(64, 60, 90, 0.6);
+display: block;
+font: 13px/17px arial,sans-serif;
+margin: 4px 12px 0;
+padding: 3px 0;
+text-decoration: none;
+}
+body #mal\_cs\_listinfo a:nth-of-type(1), body #mal\_cs\_links a:nth-of-type(1), body #mal\_cs\_otherlinks a:nth-of-type(1), body #mal\_cs\_powered a:nth-of-type(1) {
+margin-top: 0;
+}
+
+body #mal\_cs\_listinfo strong a strong {
+font-weight: normal;
+}
+body #mal\_cs\_otherlinks strong {
+color: #333333;
+display: block;
+font: bold 13px/17px arial,sans-serif !important;
+padding: 0 4px 4px;
+text-shadow: 0 1px 1px #FFFFFF;
+}
+body #mal\_cs\_otherlinks strong a {
+background: none repeat scroll 0 0 transparent !important;
+border-color: transparent !important;
+border-radius: 0 0 0 0;
+color: #333333;
+display: inline;
+font: bold 13px/17px arial,sans-serif !important;
+margin: 0;
+padding: 0;
+text-shadow: 0 1px 1px #FFFFFF;
+}
+body #mal\_cs\_powered a {
+display: block !important;
+margin: 0 !important;
+opacity: 0;
+padding: 8px 0 0 !important;
+}
+body #mal\_cs\_powered:hover a {
+opacity: 1;
+}
+body #mal\_cs\_powered a img {
+background: url("http://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
+display: block;
+height: 0;
+margin: 0 12px;
+padding: 23px 0 0 126px;
+width: 0;
+}
+body #mal\_cs\_powered a img:hover {
+background-color: #403C5A;
+}
+body #mal\_cs\_powered #search {
+padding: 8px;
+position: relative;
+}
+body #mal\_cs\_powered #search #searchBox {
+-moz-box-sizing: border-box;
+border-color: #BCBCBC #D6D6D6 #D6D6D6;
+border-style: solid;
+border-width: 1px;
+color: #333333;
+display: inline-block;
+font-family: arial,sans-serif;
+font-size: 13px;
+height: 28px;
+padding-left: 6px;
+padding-right: 24px;
+vertical-align: top;
+width: 100%;
+}
+body #mal\_cs\_powered #search #searchBox:hover, body #mal\_cs\_powered #search #searchBox:focus {
+border-color: #ACACAC #C6C6C6 #C6C6C6;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+body #mal\_cs\_powered #search #searchListButton {
+background: url("http://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transparent;
+height: 0;
+margin: 0;
+padding: 16px 0 0 16px;
+position: absolute;
+right: 12px;
+top: 14px;
+width: 0;
+}
+body #mal\_cs\_listinfo {
+background-image: url("http://i.imgur.com/UXZxrWI.png");
+right: 106px;
+}
+body #mal\_cs\_listinfo:hover {
+background-image: url("http://i.imgur.com/VcVVnod.png");
+}
+body #mal\_cs\_links {
+background-image: url("http://i.imgur.com/LpXWTzt.png");
+right: 72px;
+z-index: 9;
+}
+body #mal\_cs\_links:hover {
+background-image: url("http://i.imgur.com/oPfKrOl.png");
+}
+body #mal\_cs\_otherlinks {
+background-image: url("http://i.imgur.com/ogmX9qC.png");
+right: 38px;
+z-index: 8;
+}
+body #mal\_cs\_otherlinks:hover {
+background-image: url("http://i.imgur.com/EEGHkbF.png");
+}
+body #mal\_cs\_powered {
+background-image: url("http://i.imgur.com/ct4BVP5.png");
+right: 4px;
+z-index: 7;
+}
+body #mal\_cs\_powered:hover {
+background-image: url("http://i.imgur.com/TUUWtaj.png");
+}
+td#mal\_cs\_pic a img {
+display: none;
+}
+#mal\_cs\_pic, #mal\_cs\_listinfo, #mal\_cs\_links {
+border-right: 0 none !important;
+}
+
+body #mal\_cs\_listinfo, body #mal\_cs\_links, body #mal\_cs\_otherlinks, body #mal\_cs\_powered {
+padding: 32px 0 0;
+}
+
+body #mal\_cs\_listinfo:before, 
+body #mal\_cs\_links:before, 
+body #mal\_cs\_otherlinks:before, 
+body #mal\_cs\_powered:before {
+  z-index: 10 !important;
+  content: "";
+  right: 0 !important;
+  top: 0 !important;
+  width: 32px !important;
+  position: absolute !important;
+}               
+
+body #mal\_cs\_listinfo:after{
+background-image: url(http://i.imgur.com/856wzPZ.png);
+}
+body #mal\_cs\_links:after{
+background-image: url(http://i.imgur.com/rwvRyux.png);
+}
+body #mal\_cs\_otherlinks:after{
+background-image: url(http://i.imgur.com/fbWr1K4.png);
+} 
+body #mal\_cs\_powered:after{
+background-image: url(http://i.imgur.com/fKvpt1F.png);
+}
+
+body #mal\_cs\_listinfo:after, 
+body #mal\_cs\_links:after, 
+body #mal\_cs\_otherlinks:after, 
+body #mal\_cs\_powered:after {
+  z-index: 10 !important;
+  content: "";
+  right: 0 !important;
+  top: 0 !important;
+  width: 32px !important;
+  height: 32px !important;
+  position: absolute !important;
+}
