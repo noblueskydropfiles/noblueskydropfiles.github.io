@@ -1,5 +1,5 @@
 @import "https://noblueskydropfiles.github.io/02tbrbluesquare.css";
-@import "https://malcat-gen.appspot.com/series?preset=more";
+@import url(https://malcat-gen.appspot.com/series?preset=more);
 body {
 background-image: url("http://i.imgur.com/inqwS95.jpg");
 background-attachment: fixed;
