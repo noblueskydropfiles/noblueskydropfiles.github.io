@@ -1,5 +1,5 @@
 @import "https://noblueskydropfiles.github.io/02tbr.css";
-@import "https://malcat-gen.appspot.com/series?preset=more";
+@import url(https://malcat-gen.appspot.com/series?preset=more);
 body {
 background-attachment: fixed;
 background-clip: border-box;
