@@ -101,7 +101,7 @@ line-height: 70px;
     padding: 0;
     position: fixed;
     right: 24px;
-    top: 110px;
+    top: 100px;
 }
 #list_surround .status_selected, #list_surround .status_not_selected {
     background-attachment: scroll;
@@ -135,14 +135,14 @@ line-height: 70px;
     background-color: transparent;
     background-image: url("https://i.imgur.com/1kaCYeW.png");
     right: 24px;
-    top: 450px;
+    top: 460px;
 }
 #list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
     background-attachment: scroll;
     background-color: transparent;
     background-image: url("https://i.imgur.com/TF6l1kN.png");
     right: 24px;
-    top: 540px;
+    top: 550px;
 }
 /*End of menu*/
 
