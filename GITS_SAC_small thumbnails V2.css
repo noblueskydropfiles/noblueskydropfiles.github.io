@@ -1,5 +1,6 @@
-@import "https://noblueskydropfiles.github.io/02tbr.css";
-@import url(https://malcat-gen.appspot.com/series?preset=more);
+@\import "https://noblueskydropfiles.github.io/02tbr.css";
+@\import "https://malscraper.azurewebsites.net/covers/anime/Nobluesky/presets/more";
+
 body {
 background-attachment: fixed;
 background-clip: border-box;
@@ -250,7 +251,7 @@ This is the header above currently watching/reading. Increase the amount after "
 If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
 */
 .header_cw {
-background-image:url(http://i.imgur.com/zrnpP0F.png);
+background-image:url(https://i.imgur.com/zrnpP0F.png);
 height: 200px;
 margin-bottom: 0px;
 background-color: transparent;
@@ -269,7 +270,7 @@ This is the header above your anime/manga that's completed. Increase the amount 
 If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
 */
 .header_completed {
-background-image:url(http://i.imgur.com/9uqDKyD.png);
+background-image:url(https://i.imgur.com/9uqDKyD.png);
 height: 200px;
 margin-bottom: 0px;
 background-color: transparent;
@@ -288,7 +289,7 @@ This is the header above your animes/mangas on-hold. Increase the amount after "
 If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
 */
 .header_onhold {
-background-image:url(http://i.imgur.com/L4P0GCe.png);
+background-image:url(https://i.imgur.com/L4P0GCe.png);
 height: 200px;
 margin-bottom: 0px;
 background-color: transparent;
@@ -307,7 +308,7 @@ This is the header above your dropped animes/mangas. Increase the amount after "
 If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
 */
 .header_dropped {
-background-image:url(http://i.imgur.com/9qL31sT.png);
+background-image:url(https://i.imgur.com/9qL31sT.png);
 height: 200px;
 margin-bottom: 0px;
 background-color: transparent;
@@ -326,7 +327,7 @@ This is the header above the anime/manga you plan to see or read on your list. I
 If in Google Chrome your header has little to no height and doesn't increase when you try to change it, then replace "height:" with "padding-top:".
 */
 .header_ptw {
-background-image:url(http://i.imgur.com/zPsmeYP.png);
+background-image:url(https://i.imgur.com/zPsmeYP.png);
 height: 200px;
 margin-bottom: 0px;
 background-color: transparent;
@@ -368,16 +369,8 @@ font-size: 0pt !important;
 }
 
 body {
-cursor:url(http://i.imgur.com/KdOJU1O.png) 1 2, auto;
+cursor:url(https://i.imgur.com/KdOJU1O.png) 1 2, auto;
 }
 a:hover {
-cursor: url(http://i.imgur.com/SiuXd68.png) 1 2, auto;
+cursor: url(https://i.imgur.com/SiuXd68.png) 1 2, auto;
 }
-
-If you want to use different cursor types, just change the code in the parenthesis with any picture. Hatsune miku cursors:
-Blinking: http://i46.tinypic.com/mlr0jr.jpg
-Singing: http://i49.tinypic.com/9id9gy.jpg
-Spinning: http://i46.tinypic.com/opr0c4.jpg
-Book: http://i49.tinypic.com/30jjo12.jpg
-Kotatsu: http://i47.tinypic.com/34z0pd2.jpg
-Read more at http://myanimelist.net/forum/?topicid=200323&amp;amp;amp;show=1740#fwZJa2bEJQLXgfTD.99
