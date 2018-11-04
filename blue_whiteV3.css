@@ -1,7 +1,7 @@
-@import "https://noblueskydropfiles.github.io/02tbrbluesquare.css";
-@import url(https://malcat-gen.appspot.com/series?preset=more);
+@\import "https://noblueskydropfiles.github.io/02tbrbluesquare.css";
+@\import "https://malscraper.azurewebsites.net/covers/anime/Nobluesky/presets/more";
 body {
-background-image: url("http://i.imgur.com/inqwS95.jpg");
+background-image: url("https://i.imgur.com/inqwS95.jpg");
 background-attachment: fixed;
 background-clip: border-box;
 background-color: white;
