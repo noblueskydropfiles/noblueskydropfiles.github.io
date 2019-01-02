@@ -1,0 +1,415 @@
+@\import "https://noblueskydropfiles.github.io/blue_menu.css";
+@\import "https://malscraper.azurewebsites.net/covers/auto/presets/more";
+body {
+background-image: url("https://i.imgur.com/kMXjvJn.png"), url("https://i.imgur.com/xffDrBT.jpg");
+background-attachment: scroll, fixed;
+background-clip: border-box;
+background-color: #ffffff;
+background-position: right 5%;
+background-repeat: no-repeat;
+background-origin: padding-box, padding-box;
+background-position: 10% 10%, center center;
+background-repeat: no-repeat, no-repeat;
+background-size: auto 30%, cover;
+color: #242170 !important;
+font-family: Milkshake;
+font-size: 25px;
+font-weight:bold;
+}
+#inlineContent {
+background: url("") no-repeat scroll 0 -26% transparent;
+display: block;
+height: 100% !important;
+left: 0 !important;
+margin: auto !important;
+position: fixed !important;
+right: 0 !important;
+top: 0 !important;
+width: 100% !important;
+z-index: -1 !important;
+}
+/*Main list settings*/
+#list_surround {
+background: url("") no-repeat scroll 0% 100px transparent;
+background-size: 55%;
+font-size: 81.25%;
+line-height: 1;
+margin: 0 auto;
+padding-bottom: 10px;
+padding-top: 350px;
+width: 58% !important;
+}
+/*Links settings*/
+a {
+-moz-transition: all 0.25s ease-in-out 0s;
+color: #242170;
+text-decoration: none;
+text-shadow: none;
+}
+
+/*Menu*/
+
+/*AFFECT ALL LINKS*/
+
+.status_selected:hover, .status_not_selected:hover {
+background-color:rgba(255, 255, 255, 0.1)!important;
+}
+
+/*Element width and settings*/
+.status_not_selected, .status_selected {
+     border: 1px solid white ! important;
+     height: auto ! important;
+     padding-right: 20px!important;
+    padding-left: 20px!important;
+     text-align: center!important;
+     width: 10% !important;
+	border-radius: 40px;
+    background-color:rgba(255, 255, 255, 0.35)!important;
+}
+
+/*Element height*/
+[cellspacing="0"] {
+line-height: 70px;
+}
+
+.status_selected a {
+    display: block;
+    color:#f5231e;
+}
+
+.status_selected :hover {
+    color: #ffffff;
+}
+
+.status_not_selected:hover {
+    color: transparent;
+    opacity: 1 !important;
+    right: 2% !important;
+    transition: all 0.4s ease 0s;
+}
+
+.status_not_selected:hover a {
+    color: white;
+    display: block;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: 100% 0;
+    background-repeat: no-repeat no-repeat;
+    display: block;
+    padding: 0;
+    position: fixed;
+    right: 24px;
+    top: 100px;
+}
+#list_surround .status_selected, #list_surround .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: 100% 0;
+    background-repeat: no-repeat no-repeat;
+    display: block;
+    padding: 0;
+    position: fixed;
+    right: 24px;
+    top: 190px;
+}
+#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    right: 24px;
+    top: 280px;  
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    background-position: 100% 0;
+    right: 24px;
+    top: 370px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    right: 24px;
+    top: 460px;
+}
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+    background-attachment: scroll;
+    background-color: transparent;
+    right: 24px;
+    top: 550px;
+}
+/*End of menu*/
+
+/*Headers (with color)*/
+.table_header {
+font-size:0px;
+background-color: transparent;
+border-bottom:solid 1px #ffffff !important;
+}
+.table_header:first-of-type {
+border-radius: 3px 0 0 0;
+}
+.table_header:nth-of-type(2) {
+text-align: left;
+}
+.table_header:last-of-type {
+border-radius: 0 3px 0 0;
+}
+/*Rows colors*/
+.td1 {
+-moz-transition: all 0.25s ease-in-out 0s;
+background-color: rgba(255, 255, 255, 0.4);
+border-bottom:solid 1px #fff !important;
+}
+.td2 {
+-moz-transition: all 0.25s ease-in-out 0s;
+background-color: rgba(255, 255, 255, 0.4);
+border-bottom:solid 1px #fff !important;
+}
+.td1 a {
+color:#242170 !important;
+}
+.td2 a {
+color:#242170 !important;
+}
+/*Left column colors (numbers column) if necessary*/
+.td1:first-of-type {
+background-color: rgba(255, 255, 255, 0.4);
+font-size:0px;
+}
+.td2:first-of-type {
+background-color: rgba(255, 255, 255, 0.4);
+font-size:0px;
+}
+
+tr:hover [class^="td"] {
+background-color: rgba(255, 255, 255, 0.1)!important;
+}
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+text-align: left;
+}
+noindex:-moz-any-link, tr:hover td.td1, tr:hover td.td2 {
+font-size: 15px;
+}
+.table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
+border: 0 none;
+padding: 4px;
+text-align: center;
+vertical-align: middle;
+}
+/*Rows height*/
+.table_header, .td1, .td2, .category_totals {
+line-height: 30px;
+}
+.borderRBL {
+line-height: normal !important;
+}
+
+.category_totals {
+-moz-transition: all 0.25s ease-in-out 0s;
+background-color: rgba(72, 64, 87, 0);
+border-radius: 0 0 3px 3px;
+color: rgba(51, 51, 51, 0);
+text-align: center;
+}
+.category_totals:hover {
+background-color: tranparent;
+color: #242170;
+}
+[class^="header_"] * {
+font-size: 50px;
+height: 60px;
+line-height: 24px;
+padding-bottom: 4px;
+text-align: center;
+vertical-align: bottom;
+}
+
+.header_title {
+border-radius: 4px 4px 4px 4px;
+color: #242170;
+display: inline-block;
+font-style: normal;
+height: auto;
+padding: 0 8px 0 0;
+}
+#grand_totals {
+border: 0 none;
+color: #242170;
+line-height: 20px;
+min-height: 20px;
+padding: 8px;
+text-align: center;
+vertical-align: middle;
+background-color: rgba(255, 255, 255, 0.4);
+border-radius: 15px;
+}
+#copyright {
+background-color: rgba(255, 255, 255, 0.4);
+border-radius: 15px;
+color: #242170;
+line-height: 17px;
+margin-top: 10px;
+padding: 8px;
+text-align: center;
+}
+
+#copyright:after {
+content: "Theme by Nobluesky";
+}
+
+/* THUMBNAIL SETTINGS
+Settings for the thumbnails of covers seen on your list. Height and width control the size, while margin-left and top can be added or taken away to change the position. Change the border size, type, or color, with the first border code.*/
+.hide {
+height:50px;
+width:35px;
+margin-left:60px;
+margin-top:-51px;
+background-color:transparent;
+background-position:50% 50%;
+background-repeat:no-repeat no-repeat;
+background-size:100% 100%;
+display:inline-block !important;
+position: absolute;
+}
+
+/* COVER AREA
+The surrounding area containing each cover pic which appears when you point to a row (requires #more CSS to see a DVD or manga cover).
+
+Move the cover's location around with left and top.
+Remove only the border-radius: 25px 25px 25px 25px; lines to take the rounded corners away.
+Increase height and width to make the pics bigger.
+Delete border-style: solid; to remove the border.
+
+For changing the original background color see the bottom of the original post:
+http://myanimelist.net/forum/?topicid=563993
+*/
+:hover + .hide {
+background-size: cover;
+right:83%;
+top: 70%;
+height: 200px;
+width: 200px;
+
+border-style: solid;
+border-color: white;
+border-radius: 80%;
+border: 3px solid #fff;
+background-color: transparent;
+background-position: center 50% !important;
+background-repeat: no-repeat !Important;
+display: block !important;
+position: fixed;
+box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.9);
+}
+
+/* PREVIEW MSG ABOVE COVERS
+Remove content: "preview"; to remove the PREVIEW text.
+Change the text in quotations after content to what you want it to say above your cover pic.
+Top and width controls the position of the text.
+*/
+.hide:before {
+background: transparent;
+padding-bottom: 5px;
+position: absolute;
+text-align: center;
+width: 225px;
+top: -25px;
+border-radius: 25px 25px 0 0;
+}
+
+/*ROW WIDTH AND SPACING
+This will increase the height of your rows and move the anime title to the left. It might look funny on some layouts so you'll have to adjust it or ask for help! Height is the height, padding left is the space the anime title moves from the left.
+*/
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+height: 42px;
+padding-left: 80px;
+color: #f5231e;
+}
+
+/*
+REMOVE HEADER COLOR
+You need this code to remove the default background colors from the header and override any related codes. You're supposed to use your own images or the default ones for the header, so this color is set to transparent so it won't get in the way. If you want the color back for some reason, remove this section.
+*/
+.header_title {
+background-color: transparent !important;
+}
+
+
+/*
+OTHER CODES
+Stuff I had to add after site changes. You need this otherwise the headers won't be visible.
+*/
+tbody
+{background-color: transparent;
+background-image: none;}
+
+/*
+CODES (REPLACEMENT FOR "CSS FOR FOXGIRLS" IMPORT)
+Used to remove the more button (which no longer works after using the code above to show covers). Also helps with settings for the tag hover option if you use that. 
+*/
+
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(3),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(4), 
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(5), 
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(6), 
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(7),
+#list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(8) {
+    display: tab\le-cell;
+}
+
+#list_surround small a:last-of-type {
+    display: none !important;
+}
+
+.animetitle + small {
+    visibility: visible !important;
+}
+
+#list_surround a[href*="http://myanimelist.net/panel.php?go=edit"],
+#list_surround a[href*="http://myanimelist.net/editlist.php?type="], 
+#list_surround a[href*="http://myanimelist.net/panel.php?go=add"] {
+    visibility: visible !important;
+    margin-right: 10px
+}
+
+.td1:nth-of-type(6) small, .td2:nth-of-type(6) small,
+.td1:nth-of-type(5) small, .td2:nth-of-type(5) small,
+.td1:nth-of-type(4) small, .td2:nth-of-type(4) small {
+    visibility: visible !important;
+}
+
+.td1:nth-of-type(6) small:hover, .td2:nth-of-type(6) small:hover,
+.td1:nth-of-type(5) small:hover, .td2:nth-of-type(5) small:hover,
+.td1:nth-of-type(4) small:hover, .td2:nth-of-type(4) small:hover{
+    text-decoration: underline;
+}
+.td1 small, .td2 small {
+visibility: hidden;
+}
+.td1 a.List_LightBox, .td2 a.List_LightBox {
+visibility: visible !important;
+}
+
+@font-face {
+  font-family: "Milkshake";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Milkshake"), url("https://noblueskydropfiles.github.io/milkshake.woff") format("woff");
+}
+
+body {
+cursor: url(https://i.imgur.com/QCqrnN4.png) 1 2, auto;
+}
+
+/*Links hover settings*/
+a:hover{
+cursor:url(https://i.imgur.com/656Mf8T.png) 1 2, auto;
+}
+
+.table_headerLink {
+color:transparent;
+font-size: 2px;
+}
+      
