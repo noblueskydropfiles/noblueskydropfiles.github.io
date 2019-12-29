@@ -205,7 +205,7 @@ vertical-align: middle;
 }
 /*Rows height*/
 .table_header, .td1, .td2, .category_totals {
-line-height: 30px;
+line-height: initial;
 }
 .borderRBL {
 line-height: normal !important;
